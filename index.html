@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bharathi Rajasekar — Senior Technical Recruiter</title>
+<meta name="description" content="Senior Technical Recruiter with 14+ years hiring world-class engineers. Portfolio, AI recruiting tools, and active SDE roles at Amazon." />
+<style>
+  :root{
+    --bg:#0d1117; --panel:#151b23; --panel2:#1b222c; --line:#283039;
+    --text:#e9eef4; --muted:#97a3b1; --accent:#ff9900; --accent2:#f3b24d;
+    --li:#0a66c2; --green:#38d39f; --link:#5aa9ff; --radius:16px; --maxw:900px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+    background:radial-gradient(1100px 560px at 75% -8%, #1a2431 0%, var(--bg) 55%);
+    color:var(--text);line-height:1.65;min-height:100vh}
+  a{color:var(--link)}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  /* nav */
+  nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);
+    background:rgba(13,17,23,.78);border-bottom:1px solid var(--line)}
+  .navin{max-width:var(--maxw);margin:0 auto;padding:13px 24px;display:flex;
+    justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{font-weight:800;letter-spacing:-.3px}
+  .navlinks{display:flex;gap:20px;flex-wrap:wrap}
+  .navlinks a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600}
+  .navlinks a:hover{color:var(--accent)}
+  /* hero */
+  header.hero{padding:54px 0 40px}
+  .profile{display:flex;gap:26px;align-items:center;flex-wrap:wrap}
+  .avatar{width:104px;height:104px;border-radius:50%;flex:0 0 auto;
+    background:linear-gradient(135deg,var(--accent),#b45f00);display:flex;align-items:center;
+    justify-content:center;font-size:38px;font-weight:800;color:#1a1200;
+    box-shadow:0 10px 36px rgba(255,153,0,.28)}
+  .avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+  .pname{font-size:33px;font-weight:800;letter-spacing:-.6px}
+  .ptitle{color:var(--accent2);font-weight:700;margin-top:3px}
+  .ploc{color:var(--muted);font-size:14px;margin-top:3px}
+  .tagline{font-size:20px;margin:24px 0 6px;font-weight:500;max-width:720px}
+  .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:12px;
+    font-weight:700;text-decoration:none;font-size:15px;transition:transform .15s,box-shadow .15s,filter .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-li{background:var(--li);color:#fff;box-shadow:0 6px 20px rgba(10,102,194,.35)}
+  .btn-res{background:var(--accent);color:#1a1200}
+  .btn-ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+  /* sections */
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  .s-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+  .s-head h2{font-size:23px;font-weight:800;letter-spacing:-.3px}
+  .s-head h2 .em{color:var(--accent)}
+  .bio{color:var(--muted);max-width:760px}
+  .updated{font-size:13px;color:var(--muted);display:inline-flex;align-items:center;gap:7px}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+  /* AI tools */
+  .tool{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+    border-radius:var(--radius);padding:22px 24px;margin-bottom:16px;transition:border-color .2s,transform .2s}
+  .tool:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .tool h3{font-size:19px;font-weight:800;display:flex;align-items:center;gap:10px}
+  .tool .tt{color:var(--accent2);font-weight:600;font-style:italic;margin:4px 0 14px}
+  .tool .lbl{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+  .tool p{color:var(--muted);margin:3px 0 14px}
+  .tool p:last-child{margin-bottom:0}
+  .chip{display:inline-block;background:#2a2213;color:var(--accent2);border:1px solid #4a3a16;
+    border-radius:999px;padding:3px 11px;font-size:11px;font-weight:800;margin-left:auto}
+  /* roles */
+  .role{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+    border-radius:var(--radius);padding:20px 22px;margin-bottom:14px;transition:border-color .2s,transform .2s}
+  .role:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .rtop{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start}
+  .rtitle{font-size:18px;font-weight:800}
+  .rmeta{color:var(--muted);font-size:14px;margin-top:3px}
+  .rpill{background:#2a2213;color:var(--accent2);border:1px solid #4a3a16;padding:3px 11px;
+    border-radius:999px;font-size:12px;font-weight:800;white-space:nowrap}
+  .rpitch{color:var(--muted);margin:12px 0 16px}
+  .apply{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#1a1200;
+    font-weight:800;padding:9px 18px;border-radius:10px;text-decoration:none;font-size:14px}
+  .apply:hover{filter:brightness(1.08)}
+  .empty{color:var(--muted);padding:28px;text-align:center;border:1px dashed var(--line);border-radius:var(--radius)}
+  /* experience timeline */
+  .xp{position:relative;padding-left:26px;margin-bottom:22px;border-left:2px solid var(--line)}
+  .xp:before{content:'';position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;
+    background:var(--accent);box-shadow:0 0 0 4px rgba(255,153,0,.15)}
+  .xp .xr{font-weight:800;font-size:16px}
+  .xp .xo{color:var(--accent2);font-weight:600}
+  .xp .xm{color:var(--muted);font-size:13px;margin:2px 0 10px}
+  .xp ul{color:var(--muted);padding-left:18px}
+  .xp li{margin-bottom:5px}
+  /* lists */
+  .acc{display:grid;gap:10px}
+  .acc div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--muted)}
+  .acc div b{color:var(--text)}
+  .meta2{display:flex;gap:34px;flex-wrap:wrap;margin-top:8px}
+  .meta2 .mt{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+  .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+  .tags span{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--muted)}
+  footer{padding:30px 0 70px;color:var(--muted);font-size:13px;text-align:center}
+  footer a{color:var(--link);text-decoration:none}
+  @media(max-width:520px){.pname{font-size:27px}.tagline{font-size:18px}.navlinks{gap:14px}}
+</style>
+</head>
+<body>
+  <nav><div class="navin">
+    <span class="brand" id="brand">Bharathi Rajasekar</span>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#tools">AI Tools</a>
+      <a href="#roles">Open Roles</a>
+      <a href="#experience">Experience</a>
+    </div>
+  </div></nav>
+
+  <div class="wrap">
+    <header class="hero">
+      <div class="profile">
+        <div class="avatar" id="avatar">BR</div>
+        <div>
+          <div class="pname" id="pname">—</div>
+          <div class="ptitle" id="ptitle"></div>
+          <div class="ploc" id="ploc"></div>
+        </div>
+      </div>
+      <div class="tagline" id="tagline"></div>
+      <div class="ctas">
+        <a class="btn btn-li" id="linkedin" href="#" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 102.5 6 2.49 2.49 0 004.98 3.5zM.5 8.5h4V22h-4zM8.5 8.5h3.8v1.84h.05a4.17 4.17 0 013.75-2.06c4 0 4.75 2.64 4.75 6.07V22h-4v-6.2c0-1.48 0-3.38-2.06-3.38s-2.37 1.6-2.37 3.27V22h-4z"/></svg>
+          LinkedIn</a>
+        <a class="btn btn-res" id="resume" href="#" target="_blank" rel="noopener">📄 Download Résumé</a>
+        <a class="btn btn-ghost" id="email" href="#">✉️ Contact</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="s-head"><h2>About</h2></div>
+      <p class="bio" id="bio"></p>
+    </section>
+
+    <section id="tools">
+      <div class="s-head"><h2>AI Tools I've <span class="em">Built</span></h2>
+        <span class="updated">Internal recruiting automation, shipped & in daily use</span></div>
+      <div id="tools-list"></div>
+    </section>
+
+    <section id="roles">
+      <div class="s-head"><h2>Roles I'm actively hiring for</h2>
+        <span class="updated"><span class="dot"></span>Last updated: <strong id="updated">—</strong></span></div>
+      <div id="roles-list"></div>
+    </section>
+
+    <section id="experience">
+      <div class="s-head"><h2>Experience</h2></div>
+      <div id="xp-list"></div>
+    </section>
+
+    <section id="more">
+      <div class="s-head"><h2>Key Accomplishments</h2></div>
+      <div class="acc" id="acc-list"></div>
+      <div class="meta2">
+        <div><div class="mt">Education</div><p id="edu" style="color:var(--muted)"></p></div>
+      </div>
+      <div class="mt" style="margin-top:18px">Interests</div>
+      <div class="tags" id="interests"></div>
+    </section>
+
+    <footer>
+      Built & maintained by <span id="fname"></span>. Open roles link to official
+      <a href="https://www.amazon.jobs" target="_blank" rel="noopener">amazon.jobs</a> postings.
+    </footer>
+  </div>
+
+<script>
+function fmtDate(iso){try{const d=new Date(iso);return d.toLocaleString('en-US',{year:'numeric',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});}catch(e){return iso;}}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+fetch('data.json?' + Date.now()).then(r=>r.json()).then(data=>{
+  const r = data.recruiter || {};
+  document.title = (r.name||'Recruiter') + ' — ' + (r.title||'');
+  document.getElementById('brand').textContent = r.name||'';
+  document.getElementById('fname').textContent = r.name||'';
+  document.getElementById('pname').textContent = r.name||'';
+  document.getElementById('ptitle').textContent = r.title||'';
+  document.getElementById('ploc').textContent = r.location||'';
+  document.getElementById('tagline').textContent = r.tagline||'';
+  document.getElementById('bio').textContent = r.bio||'';
+  document.getElementById('updated').textContent = fmtDate(data.lastUpdated);
+  if(r.linkedin) document.getElementById('linkedin').href = r.linkedin;
+  if(r.email) document.getElementById('email').href = 'mailto:'+r.email;
+  if(r.resume) document.getElementById('resume').href = r.resume; else document.getElementById('resume').style.display='none';
+  if(r.photo){ document.getElementById('avatar').innerHTML = '<img src="'+r.photo+'" alt="">'; }
+  else if(r.name){ document.getElementById('avatar').textContent = r.name.split(' ').map(w=>w[0]).slice(0,2).join('').toUpperCase(); }
+
+  // AI tools
+  document.getElementById('tools-list').innerHTML = (data.aiTools||[]).map(t=>`
+    <div class="tool">
+      <h3>🛠️ ${esc(t.name)} <span class="chip">In production</span></h3>
+      <div class="tt">${esc(t.tagline)}</div>
+      <div class="lbl">The problem</div><p>${esc(t.problem)}</p>
+      <div class="lbl">What it does</div><p>${esc(t.does)}</p>
+      <div class="lbl">Real impact</div><p>${esc(t.impact)}</p>
+    </div>`).join('');
+
+  // roles
+  const roles = data.roles||[];
+  document.getElementById('roles-list').innerHTML = roles.length ? roles.map(role=>`
+    <div class="role"><div class="rtop"><div>
+      <div class="rtitle">${esc(role.title)}</div>
+      <div class="rmeta">${[role.team,role.location].filter(Boolean).map(esc).join(' · ')}</div>
+    </div>${role.level?`<span class="rpill">${esc(role.level)}</span>`:''}</div>
+    <p class="rpitch">${esc(role.pitch)}</p>
+    <a class="apply" href="${role.url||'#'}" target="_blank" rel="noopener">Apply / Learn more →</a></div>`).join('')
+    : '<div class="empty">No open roles right now — follow me on LinkedIn to hear about new openings first.</div>';
+
+  // experience
+  document.getElementById('xp-list').innerHTML = (data.experience||[]).map(x=>`
+    <div class="xp"><div class="xr">${esc(x.role)}</div>
+    <div class="xo">${esc(x.org)}</div>
+    <div class="xm">${esc(x.period)} · ${esc(x.location)}</div>
+    <ul>${(x.points||[]).map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`).join('');
+
+  // accomplishments / edu / interests
+  document.getElementById('acc-list').innerHTML = (data.accomplishments||[]).map(a=>`<div>${esc(a)}</div>`).join('');
+  document.getElementById('edu').textContent = data.education||'';
+  document.getElementById('interests').innerHTML = (data.interests||[]).map(i=>`<span>${esc(i)}</span>`).join('');
+}).catch(err=>{
+  document.getElementById('roles-list').innerHTML = '<div class="empty">Could not load data. (Serving locally? Use a local server or push to GitHub Pages.)</div>';
+  console.error(err);
+});
+</script>
+</body>
+</html>
