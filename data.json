@@ -1,43 +1,45 @@
 {
-  "lastUpdated": "2026-10-20T10:32:19-07:00",
+  "lastUpdated": "2026-11-03T10:33:24-07:00",
   "recruiter": {
     "name": "Bharathi Rajasekar",
-    "title": "Senior Talent Partner, Engineering \u00b7 Amazon",
-    "location": "Maple Ridge, BC, Canada \u00b7 Open to Remote",
-    "tagline": "Senior Technical Recruiter with 14+ years closing world-class engineering talent \u2014 now hiring SDEs, BIEs & Data Engineers at Amazon.",
-    "bio": "I'm a Senior Technical Recruiter with 14+ years of full-cycle technical recruiting experience and a proven track record of attracting and closing world-class engineering talent. I operate as a trusted talent partner to hiring managers \u2014 driving full-cycle recruiting, crafting thoughtful hiring strategies, and relentlessly pursuing top-tier engineers. I combine deep sourcing expertise, including advanced research techniques and automation, with exceptional organizational skills to manage dozens of open roles while never dropping the ball. I also manage contractors at Amazon \u2014 coaching and mentoring them to do their best work. Lately I've been building AI into my recruiting workflows to surface better talent faster and operate with greater precision and velocity.",
+    "title": "Senior Talent Partner, Engineering · Amazon",
+    "location": "Maple Ridge, BC, Canada · Open to Remote",
+    "tagline": "Senior Technical Recruiter with 14+ years closing world-class engineering talent — now hiring SDEs at Amazon (Vancouver & Toronto).",
+    "bio": "I'm a Senior Technical Recruiter with 14+ years of full-cycle technical recruiting experience and a proven track record of attracting and closing world-class engineering talent. I operate as a trusted talent partner to hiring managers — driving full-cycle recruiting, crafting thoughtful hiring strategies, and relentlessly pursuing top-tier engineers. I combine deep sourcing expertise, including advanced research techniques and automation, with exceptional organizational skills to manage dozens of open roles while never dropping the ball. I also manage contractors at Amazon — coaching and mentoring them to do their best work. Lately I've been building AI into my recruiting workflows to surface better talent faster and operate with greater precision and velocity.",
     "linkedin": "https://www.linkedin.com/in/bharathi-rajasekar-98473224/",
-    "emailPersonal": "bharathirajasekar@gmail.com",
+    "email": "bharathirajasekar@gmail.com",
     "phone": "",
     "resume": "Bharathi-Rajasekar-Resume.pdf",
-    "photo": ""
+    "photo": "",
+    "emailPersonal": "bharathirajasekar@gmail.com",
+    "emailWork": "brrajase@amazon.com"
   },
   "aiTools": [
     {
       "name": "Candidate Follow-up Reminder",
       "tagline": "Never lose a strong candidate to a forgotten recycle date again.",
-      "problem": "A candidate gives a strong on-site, misses the incline by a small gap, enters the recycle period \u2014 and then we all collectively forget. Not because we don't care, but because we're juggling 47 other things. Fast forward to the recycle end date and that candidate just accepted somewhere else.",
-      "does": "One click from their Hire profile extracts their info, sets a calendar reminder for after the recycle period, and pings you on Slack with a ready-to-send re-engagement email. Setup time: 30 seconds. It also runs Debrief and Phone Screen reminders to protect our 2&5 promise \u2014 a daily email about debriefs that happened 4 days ago and phone screens that happened 2 days ago.",
-      "impact": "Actively used to track on-site candidates who missed the incline by small gaps \u2014 so when their recycle period ends, we're the first in their inbox, not the last."
+      "problem": "A candidate gives a strong on-site, misses the incline by a small gap, enters the recycle period — and then we all collectively forget. Not because we don't care, but because we're juggling 47 other things. Fast forward to the recycle end date and that candidate just accepted somewhere else.",
+      "does": "One click from their Hire profile extracts their info, sets a calendar reminder for after the recycle period, and pings you on Slack with a ready-to-send re-engagement email. Setup time: 30 seconds. It also runs Debrief and Phone Screen reminders to protect our 2&5 promise — a daily email about debriefs that happened 4 days ago and phone screens that happened 2 days ago.",
+      "impact": "Actively used to track on-site candidates who missed the incline by small gaps — so when their recycle period ends, we're the first in their inbox, not the last."
     },
     {
       "name": "Hire One-Click",
       "tagline": "One click. Candidate claimed. Communication logged.",
-      "problem": "Every candidate outreach takes 12+ clicks across the same repetitive workflow \u2014 editing Recruiter, Identified by, PACE status, saving, navigating to Communications, logging the outreach. Multiply by 40 candidates a day and you lose 30+ minutes to pure admin.",
-      "does": "Adds a single button to every candidate page on hire.amazon.com that executes the entire 7-step workflow in ~15 seconds. It auto-detects your alias, fills your name with proper profile-photo chips, sets PACE to Engaged, saves, and logs your InMail \u2014 all automatically.",
+      "problem": "Every candidate outreach takes 12+ clicks across the same repetitive workflow — editing Recruiter, Identified by, PACE status, saving, navigating to Communications, logging the outreach. Multiply by 40 candidates a day and you lose 30+ minutes to pure admin.",
+      "does": "Adds a single button to every candidate page on hire.amazon.com that executes the entire 7-step workflow in ~15 seconds. It auto-detects your alias, fills your name with proper profile-photo chips, sets PACE to Engaged, saves, and logs your InMail — all automatically.",
       "impact": "Our sourcing team uses Hire One-Click daily across IRG pipelines, reclaiming 30+ minutes per recruiter per day for actual candidate engagement instead of data entry."
     },
     {
       "name": "Rush Loop Assistant",
       "tagline": "One conversation. Loop scheduled. No chasing required.",
-      "problem": "Every RUSH loop takes days of coordination \u2014 extracting rosters from Hire, creating Slack groups, chasing 4\u20136 interviewers for availability, formatting loop structures by hand, and separately coordinating debriefs. HMs spend hours going back and forth instead of focusing on hiring decisions.",
-      "does": "Handles the entire workflow: scrapes the Hire roster (interviewers, backups, competencies \u2014 no shadows), creates a private Slack group, requests availability, monitors responses every 3 hours, checks calendars on demand, sends smart daily reminders only to non-responders, auto-builds a break-optimized schedule (max 2 back-to-back), proposes a debrief, and delivers a copy-paste-ready loop structure.",
-      "impact": "What used to take 2\u20133 days of active coordination now runs on autopilot \u2014 freeing HMs and RCs to focus on evaluating talent, not playing calendar Tetris."
+      "problem": "Every RUSH loop takes days of coordination — extracting rosters from Hire, creating Slack groups, chasing 4–6 interviewers for availability, formatting loop structures by hand, and separately coordinating debriefs. HMs spend hours going back and forth instead of focusing on hiring decisions.",
+      "does": "Handles the entire workflow: scrapes the Hire roster (interviewers, backups, competencies — no shadows), creates a private Slack group, requests availability, monitors responses every 3 hours, checks calendars on demand, sends smart daily reminders only to non-responders, auto-builds a break-optimized schedule (max 2 back-to-back), proposes a debrief, and delivers a copy-paste-ready loop structure.",
+      "impact": "What used to take 2–3 days of active coordination now runs on autopilot — freeing HMs and RCs to focus on evaluating talent, not playing calendar Tetris."
     }
   ],
   "accomplishments": [
     "14+ years of full-cycle technical recruiting experience closing world-class engineering talent.",
-    "100% offer acceptance rate \u2014 a testament to exceptional candidate experience and persuasive, trust-based communication at every level.",
+    "100% offer acceptance rate — a testament to exceptional candidate experience and persuasive, trust-based communication at every level.",
     "Single-handedly closed 15 tech positions at Rakuten within 6 months with no sourcing support.",
     "83% offer acceptance rate at Rakuten; \"Out of the World\" Award winner for high-impact delivery.",
     "Automated LinkedIn profile searching in Ghire using JavaScript; introduced LinkedIn invite automation to improve pipeline velocity.",
@@ -49,12 +51,12 @@
     {
       "role": "Senior Technical Recruiter",
       "org": "Amazon Inc.",
-      "period": "Oct 2019 \u2013 Present",
+      "period": "Oct 2019 – Present",
       "location": "Vancouver, Canada",
       "points": [
         "Own the full recruiting lifecycle from kickoff through offer for top engineering talent across the US and Canada.",
         "Hire Solution Architects, Development Managers, Data Engineers, Product Managers, and Software Development Engineers.",
-        "Trusted talent partner to Hiring Managers, VPs, and Business Leaders \u2014 defining what 'exceptional talent' looks like for every role.",
+        "Trusted talent partner to Hiring Managers, VPs, and Business Leaders — defining what 'exceptional talent' looks like for every role.",
         "Manage, coach, and mentor contractors; mentor junior recruiters and drive programs including DEI, market mapping, and interview management.",
         "Monitor metrics week-over-week and present reports to stakeholders on monthly goals."
       ]
@@ -62,7 +64,7 @@
     {
       "role": "Senior Technical Recruiter",
       "org": "Google Cloud",
-      "period": "Mar 2018 \u2013 Jun 2019",
+      "period": "Mar 2018 – Jun 2019",
       "location": "Singapore",
       "points": [
         "Recruited top-tier engineering talent for Google Cloud across Japan, Singapore, Korea, and Hong Kong.",
@@ -72,10 +74,10 @@
     {
       "role": "Talent Advisor",
       "org": "Randstad Sourceright (Rakuten, Honeywell, Capgemini)",
-      "period": "Aug 2016 \u2013 Jan 2018",
+      "period": "Aug 2016 – Jan 2018",
       "location": "APAC",
       "points": [
-        "Sole TA professional managing all hiring for Rakuten Singapore's technology division \u2014 full-cycle from kickoff to close.",
+        "Sole TA professional managing all hiring for Rakuten Singapore's technology division — full-cycle from kickoff to close.",
         "Introduced coding evaluation before interviews to improve hire quality.",
         "Specialist for niche and complex engineering roles across Honeywell (APAC) and Capgemini IT-Financial Services."
       ]
@@ -83,7 +85,7 @@
     {
       "role": "Recruitment Consultant",
       "org": "iKAS International & Unisoft Infotech",
-      "period": "Oct 2010 \u2013 Jul 2016",
+      "period": "Oct 2010 – Jul 2016",
       "location": "Singapore",
       "points": [
         "Full-cycle recruiting for contractors and permanent staff across Banking/Financial technology and beyond.",
@@ -92,7 +94,7 @@
       ]
     }
   ],
-  "education": "Bachelor of Computer Applications \u2014 University of Madras, India",
+  "education": "Bachelor of Computer Applications — University of Madras, India",
   "interests": [
     "Trading",
     "Investment",
@@ -100,28 +102,28 @@
   ],
   "roles": [
     {
-      "title": "Data Engineer, Amazon Traffic Engineering",
-      "level": "L4",
-      "location": "Vancouver, BC, Canada",
-      "team": "Amazon Traffic Engineering",
-      "pitch": "Build real-time data pipelines powering ML-based bot detection \u2014 Python, Spark, EMR, Airflow, Glue, Redshift.",
-      "url": "https://www.amazon.jobs/en/jobs/10573527/data-engineer-amazon-traffic-engineering"
+      "title": "Software Development Engineer II, Amazon Fulfillment Technologies (AFT) - Workforce Optimization",
+      "level": "L5",
+      "location": "Toronto, ON, Canada",
+      "team": "AFT — Workforce Optimization",
+      "pitch": "Build systems that optimize how Amazon's fulfillment workforce operates at massive scale.",
+      "url": "https://www.amazon.jobs/en/jobs/10525910/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization"
     },
     {
-      "title": "Sr. Business Intelligence Engineer, Forecasting and Labs Analytics",
-      "level": "L6",
+      "title": "Software Development Engineer - Supply Chain Optimization Tech, Inbound Systems",
+      "level": "L5",
       "location": "Toronto, ON, Canada",
-      "team": "Forecasting & Labs Analytics",
-      "pitch": "Lead analytics and forecasting that shape high-stakes business decisions at scale.",
-      "url": "https://www.amazon.jobs/en/jobs/3192046/sr-business-intelligence-engineer-forecasting-and-labs-analytics"
+      "team": "Supply Chain Optimization Tech — Inbound Systems",
+      "pitch": "Build the inbound systems that keep Amazon's supply chain running at scale.",
+      "url": "https://www.amazon.jobs/en/jobs/10482781/software-development-engineer-supply-chain-optimization-tech-inbound-systems"
     },
     {
-      "title": "Business Intelligence Engineer, Forecasting & Labs Analytics",
-      "level": "L4",
+      "title": "Software Development Engineer, Amazon Fulfillment Technologies (AFT) - Outbound/Flow",
+      "level": "L5",
       "location": "Toronto, ON, Canada",
-      "team": "Forecasting & Labs Analytics",
-      "pitch": "Turn complex data into forecasts and insights that drive planning across the org.",
-      "url": "https://www.amazon.jobs/en/jobs/10569450/business-intelligence-engineer-forecasting-labs-analytics"
+      "team": "AFT — Outbound Execution",
+      "pitch": "Build the outbound flow and execution systems powering Amazon's fulfillment network.",
+      "url": "https://www.amazon.jobs/en/jobs/10584379/software-development-engineer-amazon-fulfillment-technologies-aft-outbound-flow-aft-outbound-execution-teams"
     },
     {
       "title": "Software Dev Engineer, Cross Border Deals and Promotions tech",
@@ -132,84 +134,60 @@
       "url": "https://www.amazon.jobs/en/jobs/10580300/software-dev-engineer-cross-border-deals-and-promotions-tech"
     },
     {
-      "title": "Sr. Software Development Engineer, Charge Calc",
-      "level": "L6",
-      "location": "Vancouver, BC, Canada",
-      "team": "Charge Calc",
-      "pitch": "Own design and delivery of complex distributed systems; set technical direction and mentor engineers.",
-      "url": "https://www.amazon.jobs/en/jobs/10436138/sr-software-development-engineer-charge-calc"
-    },
-    {
-      "title": "Software Development Engineer II, Amazon Fulfillment Technologies (AFT) - Workforce Optimization",
-      "level": "L5",
-      "location": "Toronto, ON, Canada",
-      "team": "AFT \u2014 Workforce Optimization",
-      "pitch": "Build systems that optimize how Amazon's fulfillment workforce operates at massive scale.",
-      "url": "https://www.amazon.jobs/en/jobs/10525910/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization"
-    },
-    {
-      "title": "Business Intelligence Engineer II, SCOT - Fulfillment Optimization (FO)",
+      "title": "Software Dev Engineer, Pricing Shared Platform",
       "level": "L5",
       "location": "Vancouver, BC, Canada",
-      "team": "SCOT \u2014 Fulfillment Optimization",
-      "pitch": "Drive analytics for supply chain and fulfillment optimization across Amazon's network.",
-      "url": "https://www.amazon.jobs/en/jobs/10459394/business-intelligence-engineer-ii-scot-fulfillment-optimization-fo"
+      "team": "Pricing Shared Platform",
+      "pitch": "Build the shared platform powering Amazon's pricing systems at scale.",
+      "url": "https://www.amazon.jobs/en/jobs/10588630/software-dev-engineer-pricing-shared-platform"
     },
     {
-      "title": "Business Intel Engineer, WW Promotions and Events Data and Insights",
-      "level": "L4",
-      "location": "Vancouver, BC, Canada",
-      "team": "WW Promotions & Events \u2014 Data & Insights",
-      "pitch": "Build the data and insights behind Amazon's worldwide promotions and events.",
-      "url": "https://www.amazon.jobs/en/jobs/10392992/business-intel-engineer-ww-promotions-and-events-data-and-insights"
-    },
-    {
-      "title": "Business Intelligence Engineer II, Talent Acquisition Analytics",
+      "title": "Software Development Engineer, Region Flexibility Engineering",
       "level": "L5",
       "location": "Vancouver, BC, Canada",
-      "team": "Talent Acquisition Analytics",
-      "pitch": "Power data-driven hiring decisions across Amazon's talent acquisition org.",
-      "url": "https://www.amazon.jobs/en/jobs/10424171/business-intelligence-engineer-ii-talent-acquisition-analytics"
+      "team": "Region Flexibility Engineering",
+      "pitch": "Engineer the systems that give Amazon regional flexibility across its global infrastructure.",
+      "url": "https://www.amazon.jobs/en/jobs/10589233/software-development-engineer-region-flexibility-engineering"
     },
     {
-      "title": "Software Development Engineer, Amazon Private Brands",
+      "title": "Software Development Engineer, Ordering",
       "level": "L5",
       "location": "Vancouver, BC, Canada",
-      "team": "Amazon Private Brands",
-      "pitch": "Design and ship services powering Amazon's private brands business for millions of customers.",
-      "url": "https://www.amazon.jobs/en/jobs/10567382/software-development-engineer-amazon-private-brands"
+      "team": "Ordering",
+      "pitch": "Own services at the heart of Amazon's ordering experience for millions of customers.",
+      "url": "https://www.amazon.jobs/en/jobs/10583608/software-development-engineer-ordering"
     },
     {
-      "title": "Software Development Engineer III, Agentic Client Experience (ACE) - Builder Foundations",
-      "level": "L6",
-      "location": "Vancouver, BC, Canada",
-      "team": "Agentic Client Experience (ACE) \u2014 Builder Foundations",
-      "pitch": "Own architecture of AI-powered, agentic developer tooling across Java, Python, TypeScript \u2014 RAG, MCP, AWS Lambda/DynamoDB/CDK.",
-      "url": "https://www.amazon.jobs/en/jobs/10509601/software-development-engineer-iii-agentic-client-experience-ace-builder-foundations"
-    },
-    {
-      "title": "Business Intelligence Engineer, IT PnD Data & Analytics (DnA)",
-      "level": "L4",
-      "location": "Vancouver, BC, Canada",
-      "team": "IT PnD \u2014 Data & Analytics (DnA)",
-      "pitch": "Deliver analytics and reporting that drive data-informed decisions across the org.",
-      "url": "https://www.amazon.jobs/en/jobs/10576100/business-intelligence-engineer-it-pnd-data-analytics-dna"
-    },
-    {
-      "title": "Sr. Data Engineer, WW Pricing Data and Insights",
-      "level": "L6",
-      "location": "Vancouver, BC, Canada",
-      "team": "WW Pricing \u2014 Data & Insights",
-      "pitch": "Lead the data architecture behind Amazon's worldwide pricing insights.",
-      "url": "https://www.amazon.jobs/en/jobs/10514189/sr-data-engineer-ww-pricing-data-and-insights"
-    },
-    {
-      "title": "Software Development Engineer - Supply Chain Optimization Tech, Inbound Systems",
+      "title": "Software Development Engineer, Ordering",
       "level": "L5",
-      "location": "Toronto, ON, Canada",
-      "team": "Supply Chain Optimization Tech \u2014 Inbound Systems",
-      "pitch": "Build the inbound systems that keep Amazon's supply chain running at scale.",
-      "url": "https://www.amazon.jobs/en/jobs/10482781/software-development-engineer-supply-chain-optimization-tech-inbound-systems"
+      "location": "Vancouver, BC, Canada",
+      "team": "Ordering",
+      "pitch": "Own services at the heart of Amazon's ordering experience for millions of customers.",
+      "url": "https://www.amazon.jobs/en/jobs/10579332/software-development-engineer-ordering"
+    },
+    {
+      "title": "Software Dev Engineer, Pricing Shared Platform",
+      "level": "L5",
+      "location": "Vancouver, BC, Canada",
+      "team": "Pricing Shared Platform",
+      "pitch": "Build the shared platform powering Amazon's pricing systems at scale.",
+      "url": "https://www.amazon.jobs/en/jobs/10588639/software-dev-engineer-pricing-shared-platform"
+    },
+    {
+      "title": "Software Dev Engineer, Pricing Shared Platform",
+      "level": "L5",
+      "location": "Vancouver, BC, Canada",
+      "team": "Pricing Shared Platform",
+      "pitch": "Build the shared platform powering Amazon's pricing systems at scale.",
+      "url": "https://www.amazon.jobs/en/jobs/10588643/software-dev-engineer-pricing-shared-platform"
+    },
+    {
+      "title": "Software Development Engineer, Navigator",
+      "level": "L5",
+      "location": "Vancouver, BC, Canada",
+      "team": "Navigator",
+      "pitch": "Build the Navigator systems that steer Amazon's engineering decisions and tooling.",
+      "url": "https://www.amazon.jobs/en/jobs/10584150/software-development-engineer-navigator"
     }
   ]
 }
