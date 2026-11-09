@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T10:33:24-07:00",
+  "lastUpdated": "2026-11-09T12:46:38-07:00",
   "recruiter": {
     "name": "Bharathi Rajasekar",
     "title": "Senior Talent Partner, Engineering · Amazon",
@@ -126,6 +126,14 @@
       "url": "https://www.amazon.jobs/en/jobs/10584379/software-development-engineer-amazon-fulfillment-technologies-aft-outbound-flow-aft-outbound-execution-teams"
     },
     {
+      "title": "Software Development Engineer, Amazon Fulfillment Technologies (AFT) - Outbound/Flow",
+      "level": "L5",
+      "location": "Toronto, ON, Canada",
+      "team": "AFT — Outbound Execution",
+      "pitch": "Build the outbound flow and execution systems powering Amazon's fulfillment network.",
+      "url": "https://www.amazon.jobs/en/jobs/10590074/software-development-engineer-amazon-fulfillment-technologies-aft-outbound-flow-aft-outbound-execution-teams"
+    },
+    {
       "title": "Software Dev Engineer, Cross Border Deals and Promotions tech",
       "level": "L5",
       "location": "Vancouver, BC, Canada",
@@ -158,36 +166,44 @@
       "url": "https://www.amazon.jobs/en/jobs/10583608/software-development-engineer-ordering"
     },
     {
-      "title": "Software Development Engineer, Ordering",
-      "level": "L5",
-      "location": "Vancouver, BC, Canada",
-      "team": "Ordering",
-      "pitch": "Own services at the heart of Amazon's ordering experience for millions of customers.",
-      "url": "https://www.amazon.jobs/en/jobs/10579332/software-development-engineer-ordering"
-    },
-    {
-      "title": "Software Dev Engineer, Pricing Shared Platform",
-      "level": "L5",
-      "location": "Vancouver, BC, Canada",
-      "team": "Pricing Shared Platform",
-      "pitch": "Build the shared platform powering Amazon's pricing systems at scale.",
-      "url": "https://www.amazon.jobs/en/jobs/10588639/software-dev-engineer-pricing-shared-platform"
-    },
-    {
-      "title": "Software Dev Engineer, Pricing Shared Platform",
-      "level": "L5",
-      "location": "Vancouver, BC, Canada",
-      "team": "Pricing Shared Platform",
-      "pitch": "Build the shared platform powering Amazon's pricing systems at scale.",
-      "url": "https://www.amazon.jobs/en/jobs/10588643/software-dev-engineer-pricing-shared-platform"
-    },
-    {
       "title": "Software Development Engineer, Navigator",
       "level": "L5",
       "location": "Vancouver, BC, Canada",
       "team": "Navigator",
       "pitch": "Build the Navigator systems that steer Amazon's engineering decisions and tooling.",
       "url": "https://www.amazon.jobs/en/jobs/10584150/software-development-engineer-navigator"
+    },
+    {
+      "title": "Software Development Engineer, Agent Labs",
+      "level": "L5",
+      "location": "Vancouver, BC, Canada",
+      "team": "Agent Labs",
+      "pitch": "Build next-generation agentic AI systems in Amazon's Agent Labs.",
+      "url": "https://www.amazon.jobs/en/jobs/10593550"
+    },
+    {
+      "title": "Software Development Engineer, Edgelink ML, Amazon Traffic Engineering",
+      "level": "L5",
+      "location": "Vancouver, BC, Canada",
+      "team": "Edgelink ML — Traffic Engineering",
+      "pitch": "Build ML systems at the edge that power Amazon's traffic engineering and bot defense.",
+      "url": "https://www.amazon.jobs/en/jobs/10598912/software-development-engineer-edgelink-ml-amazon-traffic-engineering"
+    },
+    {
+      "title": "Software Development Engineer III, Intelligent Cloud Hosting (ICON)",
+      "level": "L6",
+      "location": "Vancouver, BC, Canada",
+      "team": "Intelligent Cloud Hosting (ICON)",
+      "pitch": "Own architecture of intelligent cloud hosting systems; set technical direction and mentor engineers.",
+      "url": "https://www.amazon.jobs/en/jobs/10598836/software-development-engineer-iii-intelligent-cloud-hosting-icon"
+    },
+    {
+      "title": "Software Development Engineer II, Intelligent Cloud Hosting (ICON)",
+      "level": "L5",
+      "location": "Vancouver, BC, Canada",
+      "team": "Intelligent Cloud Hosting (ICON)",
+      "pitch": "Design and build intelligent cloud hosting systems that scale across Amazon's infrastructure.",
+      "url": "https://www.amazon.jobs/en/jobs/10598837/software-development-engineer-ii-intelligent-cloud-hosting-icon"
     }
   ]
 }
